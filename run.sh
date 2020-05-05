@@ -2,7 +2,7 @@
 
 MUSIC_DIR="$1"
 
-if [ -z "$1" ] || [ "$1" -eq "-h" ] || [ "$1" == "--help" ]; then
+if [ -z "$1" ] || [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
   echo "Usage: $0 MUSIC_DIR"
   exit 1
 fi
